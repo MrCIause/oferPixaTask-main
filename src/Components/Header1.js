@@ -29,6 +29,9 @@ export default function Header1() {
               <li>
                 <Link to="/map1">Map1</Link>
               </li>
+              <li>
+                <Link to="/map2">Map Jerusalem</Link>
+              </li>
             </ul>
           </nav>
         </div>

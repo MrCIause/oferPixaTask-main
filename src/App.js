@@ -8,6 +8,7 @@ import VipInfo from "./Pages/VipInfo";
 import PIXA from "./Pages/Pixa";
 import Register from "./Pages/Register";
 import Map1 from "./Pages/Map1";
+import MapJerusalem from "./Pages/MapJerusalem";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/pixa" element={<PIXA />} />
           <Route path="/register" element={<Register />} />
           <Route path="/map1" element={<Map1 />} />
+          <Route path="/map2" element={<MapJerusalem />} />
         </Route>
       </Routes>
     </BrowserRouter>
